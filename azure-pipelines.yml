@@ -61,8 +61,8 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Azure subscription 1(e776aacd-e692-4690-897d-ccb6971d913a)'
+        azureSubscription: 'Lunatuna(4bdc3cee-93d1-441c-9a1b-120b405f517c)'
         appType: 'webAppLinux'
         WebAppName: 'lunatuna'
-        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
+        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'''
         RuntimeStack: 'DOTNETCORE|6.0'
